@@ -34,7 +34,6 @@ def addPoduct():
             "quantity": request.json['quantity']                
             }
     products.append(new_product)
-
     return jsonify({"message":"Item was added succesfully","products":products})`
 
 
